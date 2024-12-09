@@ -25,7 +25,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
-/**
+/*
  * Language specific translation key folding with representative locale value.
  * @author marhali
  */
@@ -49,7 +49,7 @@ abstract class AbstractFoldingBuilder extends FoldingBuilderEx implements Option
     public FoldingDescriptor @NotNull [] buildFoldRegions(@NotNull PsiElement root, @NotNull Document document, boolean quick) {
 
         if(quick || !isAssistance(root.getProject())) {
-            return FoldingDescriptor.EMPTY_ARRAY;
+            return new FoldingDescriptor[0];
         }
 
         List<FoldingDescriptor> descriptors = new ArrayList<>();
