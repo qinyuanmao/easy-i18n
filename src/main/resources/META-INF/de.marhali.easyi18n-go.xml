@@ -1,0 +1,27 @@
+<idea-plugin>
+<extensions defaultExtensionNs="com.intellij">
+        <intentionAction>
+            <className>de.marhali.easyi18n.assistance.intention.GoTranslationIntention</className>
+        </intentionAction>
+
+        <psi.referenceContributor
+                language="go"
+                implementation="de.marhali.easyi18n.assistance.reference.GoKeyReferenceContributor"
+        />
+
+        <lang.foldingBuilder
+                language="go"
+                implementationClass="de.marhali.easyi18n.assistance.folding.GoFoldingBuilder"
+        />
+
+        <lang.documentationProvider
+                language="go"
+                implementationClass="de.marhali.easyi18n.assistance.documentation.CommonDocumentationProvider"
+        />
+
+        <completion.contributor
+                language="go"
+                implementationClass="de.marhali.easyi18n.assistance.completion.GoCompletionContributor"
+        />
+    </extensions>
+</idea-plugin>

@@ -77,8 +77,9 @@ class LocalizeItAction extends AnAction {
      * @return the built replacement string
      */
     private String buildReplacement(String flavorTemplate, String key, DocumentUtil documentUtil) {
-        if (documentUtil.isVue() || documentUtil.isJsOrTs()) return flavorTemplate + "('" + key + "')";
-        return flavorTemplate + "(\"" + key + "\")";
+//        if (documentUtil.isVue() || documentUtil.isJsOrTs()) return flavorTemplate + "('" + key + "')";
+//        return flavorTemplate + "(\"" + key + "\")";
+        return flavorTemplate.replace("{{key}}", key);
     }
 
     /**
