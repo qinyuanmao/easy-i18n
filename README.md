@@ -41,7 +41,7 @@ This plugin can be used for any project based on one of the formats and structur
 
 ## Builtin Support
 ### File Types
-**<kbd>JSON</kbd>** - **<kbd>JSON5</kbd>** - **<kbd>YAML</kbd>** - **<kbd>Properties</kbd>**
+**<kbd>JSON</kbd>** - **<kbd>JSON5</kbd>** - **<kbd>YAML</kbd>** - **<kbd>Properties</kbd>** 
 
 ### Folder Structure
 - Single Directory: All translation files are within one directory 
@@ -49,7 +49,7 @@ This plugin can be used for any project based on one of the formats and structur
 - Modularized (**<kbd>Namespace</kbd>** \ **<kbd>Locale</kbd>**)
 
 ### Language Support
-**<kbd>JavaScript / TypeScript</kbd>** - **<kbd>Vue</kbd>** - **<kbd>Java</kbd>** - **<kbd>Kotlin</kbd>** - **<kbd>PHP</kbd>**
+**<kbd>JavaScript / TypeScript</kbd>** - **<kbd>Vue</kbd>** - **<kbd>Java</kbd>** - **<kbd>Kotlin</kbd>** - **<kbd>PHP</kbd>** - **<kbd>Go</kbd>**
 
 <!-- Plugin description end -->
 
